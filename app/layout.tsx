@@ -51,7 +51,7 @@ export default function RootLayout({
             </div>
           </div>
           <div className="w-full">
-            <div className="py-6 flex gap-24 bg-violet-100 text-lg font-medium shadow marquee">
+            <div className="py-6 flex gap-24 bg-[#EBE8FC] text-lg font-medium shadow marquee">
               <span>Coming soon. We will be there!!!</span>
               <span>Coming soon. We will be there!!!</span>
               <span>Coming soon. We will be there!!!</span>
