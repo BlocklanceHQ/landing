@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Logo from "@/assets/logo.svg";
-import { SunMedium, Twitter, Send } from "lucide-react";
 import { Lexend_Deca } from "next/font/google";
 import { ExternalLink } from "lucide-react";
 import "./globals.css";
@@ -23,10 +22,10 @@ export default function RootLayout({
       <body className={font.className}>
         <div className="w-full h-[100vh] bg-neutral-50">
           <div className="flex justify-between items-center mx-20 p-4">
-            <div className="flex items-center uppercase font-bold gap-4">
+            <a href="/" className="flex items-center uppercase font-bold gap-4">
               <Image src={Logo.src} width={50} height={60} alt="Logo" />{" "}
               <span>BlockLance</span>
-            </div>
+            </a>
             <div className="flex gap-4">
               <a
                 href=""
