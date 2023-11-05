@@ -23,7 +23,7 @@ export default function RootLayout({
         <div className="flex justify-between items-center md:mx-20 p-4">
           <a href="/" className="flex items-center uppercase font-bold gap-4">
             <Image src={Logo.src} width={50} height={60} alt="Logo" />{" "}
-            <span>BlockLance</span>
+            <span className="hidden md:inline">BlockLance</span>
           </a>
           <div className="hidden md:flex gap-4">
             <a
