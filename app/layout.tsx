@@ -60,16 +60,29 @@ export default function RootLayout({
           </div>
         </div>
         <div className="w-full">
-          <div className="py-6 flex gap-24 bg-[#EBE8FC] text-lg font-medium shadow marquee">
-            <span>Coming soon. We will be there!!!</span>
-            <span>Coming soon. We will be there!!!</span>
-            <span>Coming soon. We will be there!!!</span>
-            <span>Coming soon. We will be there!!!</span>
-            <span>Coming soon. We will be there!!!</span>
-            <span>Coming soon. We will be there!!!</span>
-            <span>Coming soon. We will be there!!!</span>
-            <span>Coming soon. We will be there!!!</span>
-            <span>Coming soon. We will be there!!!</span>
+          <div className="py-6 flex bg-[#EBE8FC] text-lg font-medium shadow marquee">
+            <div className="marquee__content">
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+            </div>
+            <div aria-hidden="true" className="marquee__content">
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+              <span>Coming soon.</span>
+            </div>
           </div>
         </div>
         {children}

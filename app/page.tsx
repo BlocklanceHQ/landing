@@ -10,11 +10,12 @@ export default function Home() {
       </div>
       <div className="w-[500px] px-4">
         <div className="text-stone-900 text-5xl font-medium">
-          Decentralized Data Security: Your Control, Anytime, Anywhere
+          Welcome to the future of work!
         </div>
         <div className="text-neutral-600 text-xl font-normal mt-8">
-          Build on blockchain for ultimate data security. Your control, access
-          anywhere, no third parties.
+          Introducing Blocklance, the next generation of freelancing by
+          leveraging blockchain technology to enhance security, transparency,
+          and scalability in the freelancing industry.
         </div>
 
         <div className="mt-12">
