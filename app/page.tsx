@@ -4,8 +4,8 @@ import animationData from "@/assets/animation.json";
 
 export default function Home() {
   return (
-    <div className="flex justify-evenly items-center h-[min(70vh,800px)] py-16">
-      <div className="w-[500px]">
+    <div className="flex justify-evenly items-center pt-16">
+      <div className="w-[500px] h-full flex justify-end items-end">
         <Lottie animationData={animationData} />
       </div>
       <div className="w-[500px]">
