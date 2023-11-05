@@ -72,7 +72,7 @@
   }
   body {
     color: theme("textColor.foreground");
-    background-color: theme("backgroundColor.background");
+    background-color: theme("backgroundColor.neutral.50");
   }
 }
 
