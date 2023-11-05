@@ -4,6 +4,7 @@ import Logo from "@/assets/logo.svg";
 import { Lexend_Deca } from "next/font/google";
 import { ExternalLink } from "lucide-react";
 import "./globals.css";
+import { cn } from "@/utils";
 
 const font = Lexend_Deca({ subsets: ["latin"] });
 
@@ -18,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={font.className}>
+    <html lang="en" className="scrollbar-none">
+      <body className={cn(font.className, "scrollbar-none")}>
         <div className="flex justify-between items-center md:mx-20 p-4">
           <a href="/" className="flex items-center uppercase font-bold gap-4">
             <Image src={Logo.src} width={50} height={60} alt="Logo" />{" "}

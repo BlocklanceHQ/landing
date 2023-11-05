@@ -22,6 +22,7 @@
     "react-dom": "^18",
     "scn": "^1.0.19",
     "tailwind-merge": "^2.0.0",
+    "tailwind-scrollbar": "^3.0.5",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
