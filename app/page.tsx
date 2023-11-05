@@ -26,7 +26,7 @@ export default function Home() {
               className="w-3/4 px-8 py-4 bg-neutral-100 rounded-lg shadow justify-start items-center gap-2.5 inline-flex"
               placeholder="Email Address"
             />
-            <button className="px-8 py-4 bg-indigo-700 rounded-lg justify-center items-center inline-flex text-zinc-50 font-semibold">
+            <button className="px-8 py-4 bg-indigo-700 hover:bg-indigo-800 rounded-lg justify-center items-center inline-flex text-zinc-50 font-semibold">
               Subscribe
             </button>
           </div>
