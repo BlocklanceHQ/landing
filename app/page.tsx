@@ -4,7 +4,7 @@ import animationData from "@/assets/animation.json";
 
 export default function Home() {
   return (
-    <div className="flex justify-evenly items-center h-[70vh]">
+    <div className="flex justify-evenly items-center h-[min(70vh,800px)]">
       <div className="w-[500px]">
         <Lottie animationData={animationData} />
       </div>
@@ -12,7 +12,7 @@ export default function Home() {
         <div className="text-stone-900 text-5xl font-medium">
           Decentralized Data Security: Your Control, Anytime, Anywhere
         </div>
-        <div className="w-96 text-neutral-600 text-xl font-normal font-['Lexend Deca']">
+        <div className="w-96 text-neutral-600 text-xl font-normal mt-8">
           Build on blockchain for ultimate data security. Your control, access
           anywhere, no third parties.
         </div>
