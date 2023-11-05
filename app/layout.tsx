@@ -38,10 +38,14 @@ export default function RootLayout({
               <a
                 href="https://blocklances-organization.gitbook.io/blocklance-v1/introduction/overview"
                 className="text-indigo-500"
+                target="_blank"
               >
                 Whitepaper
               </a>
-              <a className="px-8 py-4 opacity-40 bg-indigo-500 rounded-lg justify-center items-center gap-2.5 inline-flex text-zinc-50 text-base font-semibold cursor-not-allowed">
+              <a
+                className="px-8 py-4 opacity-40 bg-indigo-500 rounded-lg justify-center items-center gap-2.5 inline-flex text-zinc-50 text-base font-semibold cursor-not-allowed"
+                target="_blank"
+              >
                 Launch <ExternalLink />
               </a>
             </div>
