@@ -3,8 +3,8 @@ import Image from "next/image";
 import Logo from "@/assets/logo.svg";
 import { Lexend_Deca } from "next/font/google";
 import { ExternalLink } from "lucide-react";
-import "./globals.css";
 import { cn } from "@/utils";
+import "./globals.css";
 
 const font = Lexend_Deca({ subsets: ["latin"] });
 
