@@ -10,11 +10,20 @@ export default function Home() {
       className="flex justify-evenly items-center pt-16 bg-right bg-no-repeat"
       style={{ backgroundImage: `url(${BrandImg.src})` }}
     >
-      <Lottie
-        className="hidden w-[500px] h-full md:flex justify-end items-end"
-        animationData={animationData}
-        style={{ maskImage: "linear-gradient(black, red)" }}
-      />
+      <div className="relative w-[500px] h-full">
+        <Lottie
+          className="hidden w-full h-full md:flex justify-end items-end"
+          animationData={animationData}
+          style={{ maskImage: "linear-gradient(black, red)" }}
+        />
+        <div
+          className="absolute top-0 w-full h-full"
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(250, 250, 250, 0.00) 43%, #FAFAFA 100%)",
+          }}
+        />
+      </div>
 
       <div className="w-full md:w-[650px] px-4">
         <div
