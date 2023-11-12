@@ -35,7 +35,7 @@ export const WaitlistForm = () => {
     <form action={formAction} className="flex flex-col md:flex-row gap-2 py-8">
       {result ? (
         <div className="text-indigo-500 text-xl font-semibold">
-          Thank you for subscribing!
+          Thank you for subscribing! We will notify you once we launch.
         </div>
       ) : (
         <FormInput />

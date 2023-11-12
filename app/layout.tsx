@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scrollbar-none">
       <body className={cn(font.className, "scrollbar-none")}>
-        <div className="flex justify-between items-center md:mx-20 p-4">
+        <div className="flex justify-between items-center md:mx-16 p-4">
           <a href="/" className="flex items-center uppercase font-bold gap-4">
             <Image src={Logo.src} width={50} height={60} alt="Logo" />{" "}
             <span className="hidden md:inline">BlockLance</span>
@@ -149,8 +149,8 @@ export default function RootLayout({
                 >
                   <rect width="32" height="32" rx="16" fill="#F0F0F0" />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M7.24285 15.8311C11.9072 13.7989 15.0175 12.4592 16.5737 11.8119C21.0171 9.96378 21.9404 9.64273 22.5422 9.63213C22.6745 9.6298 22.9705 9.6626 23.1622 9.81815C23.324 9.9495 23.3686 10.1269 23.3899 10.2515C23.4112 10.376 23.4377 10.6597 23.4166 10.8813C23.1758 13.4113 22.1339 19.5509 21.6039 22.3845C21.3796 23.5835 20.938 23.9855 20.5104 24.0249C19.5813 24.1104 18.8757 23.4108 17.9758 22.8209C16.5676 21.8978 15.7721 21.3232 14.4051 20.4224C12.8254 19.3814 13.8495 18.8093 14.7498 17.8742C14.9854 17.6295 19.0792 13.9058 19.1585 13.568C19.1684 13.5258 19.1776 13.3683 19.084 13.2851C18.9905 13.202 18.8524 13.2304 18.7527 13.253C18.6115 13.2851 16.3619 14.772 12.0038 17.7138C11.3653 18.1523 10.7869 18.3659 10.2687 18.3547C9.69743 18.3424 8.59851 18.0317 7.78158 17.7662C6.77957 17.4405 5.9832 17.2682 6.05255 16.7151C6.08867 16.427 6.48544 16.1323 7.24285 15.8311Z"
                     fill="currentColor"
                   />
