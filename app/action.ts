@@ -2,7 +2,9 @@
 
 import Airtable from "airtable";
 
-export async function subscribe(formData: FormData) {
+export async function subscribe(previous: boolean, formData: FormData) {
+  if (previous) return true;
+
   const base = Airtable.base("appCZ1cCzHBU31FIx");
 
   const email = formData.get("email")?.valueOf().toString();
