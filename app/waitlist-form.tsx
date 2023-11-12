@@ -17,7 +17,7 @@ const FormInput: FC = () => {
       <button
         type="submit"
         disabled={pending}
-        className={`w-2/5 px-8 py-4 bg-indigo-700 rounded-lg justify-center items-center inline-flex text-zinc-50 font-semibold ${
+        className={`w-full md:w-2/5 px-8 py-4 bg-indigo-700 rounded-lg justify-center items-center inline-flex text-zinc-50 font-semibold ${
           pending ? "opacity-50 cursor-not-allowed" : "hover:bg-indigo-800"
         }`}
       >
