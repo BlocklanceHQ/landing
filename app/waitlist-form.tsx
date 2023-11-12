@@ -4,7 +4,8 @@ import { LoaderIcon } from "lucide-react";
 import { subscribe } from "./action";
 import { FC } from "react";
 
-const FormInput: FC<{ pending: boolean }> = ({ pending }) => {
+const FormInput: FC = () => {
+  const { pending } = useFormStatus();
   return (
     <>
       <input
@@ -28,17 +29,16 @@ const FormInput: FC<{ pending: boolean }> = ({ pending }) => {
 };
 
 export const WaitlistForm = () => {
-  const { pending } = useFormStatus();
   const [result, formAction] = useFormState(subscribe, false);
 
   return (
     <form action={formAction} className="flex flex-col md:flex-row gap-2 py-8">
       {result ? (
-        <div className="text-green-500 text-xl font-semibold">
+        <div className="text-indigo-500 text-xl font-semibold">
           Thank you for subscribing!
         </div>
       ) : (
-        <FormInput pending={pending} />
+        <FormInput />
       )}
     </form>
   );
