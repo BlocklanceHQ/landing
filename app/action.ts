@@ -11,9 +11,9 @@ export async function subscribe(formData: FormData) {
     {
       fields: {
         Email: email,
-        Name: "",
+        Name: email?.split("@")[0].replace(".", " "),
         Status: "Cant wait",
-        "Current Role": "",
+        "Current Role": "Freelancer",
       },
     },
   ]);
