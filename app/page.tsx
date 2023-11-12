@@ -10,9 +10,9 @@ export default function Home() {
       className="flex justify-evenly items-center pt-16 bg-right bg-no-repeat"
       style={{ backgroundImage: `url(${BrandImg.src})` }}
     >
-      <div className="relative w-[500px] h-full">
+      <div className="hidden md:flex relative w-[500px] h-full">
         <Lottie
-          className="hidden w-full h-full md:flex justify-end items-end"
+          className="w-full h-full justify-end items-end"
           animationData={animationData}
           style={{ maskImage: "linear-gradient(black, red)" }}
         />
