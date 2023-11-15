@@ -13,6 +13,7 @@ const FormInput: FC = () => {
         name="email"
         className="w-full md:w-3/5 px-8 py-4 bg-neutral-100 rounded-lg shadow justify-start items-center gap-2.5 inline-flex"
         placeholder="Email Address"
+        required
       />
       <button
         type="submit"
